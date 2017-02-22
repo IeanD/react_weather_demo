@@ -1,0 +1,105 @@
+header {
+    background-image: url("./imgs/boreas.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    height: 350px;
+    clear: right;
+}
+
+body {
+    background: linear-gradient(to bottom, #939393, #c4c4c4);
+    background-attachment: fixed;
+}
+
+h1.title {
+    text-align: center;
+    clear: right;
+    position: center;
+    color: #4e4e4f;
+    padding-top: 140px;
+    font-size: 450%;
+}
+
+h1.preferences-header {
+    display: inline-block;
+}
+
+.clearFloat {
+    clear: right;
+}
+
+.searchButton {
+    background: linear-gradient(to right, darkorange, orange);
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+.current-city-h2 {
+    display: inline-block;
+}
+
+.current-weather {
+    display: inline;
+}
+
+.description {
+    font-style: italic;
+    color: gray;
+}
+
+.li-link{
+    display: inline-block;
+    clear: right;
+    margin-left: 12px;
+    margin-top: 7px;
+    color: #5b5b5b;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.savedLi-btn {
+    position: relative;
+    background-color: indianred;
+    border-radius: 6px;
+}
+
+.saved-cities {
+    color: #555759;
+}
+
+.saved-list {
+    width: 25%;
+}
+
+.preferences-header {
+    font-size: 2.8rem;
+    color: #777777;
+}
+
+.preferences {
+    margin-bottom: 30px;
+}
+
+button.save-btn {
+    margin-top: 20px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+}
+
+button#geo-button.geobutton {
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border: 2px solid darkgreen;
+    background: linear-gradient(-90deg, lightgreen, #b4ffaa);
+    color: gray;
+}
+
+.button-block {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
