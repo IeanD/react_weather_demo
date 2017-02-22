@@ -67,11 +67,15 @@ class App extends React.Component {
                         />
                     ) : null
                 }
-                <SavedLocations
-                    savedLocations={this.state.savedLocations}
-                    onSaveClick={(location) => this.searchForWeather(location)}
-                    onDeleteClick={(location) => this.deleteLocation(location)}
-                />
+                {
+                    this.state.savedLocations[0] ? (
+                        <SavedLocations
+                            savedLocations={this.state.savedLocations}
+                            onSaveClick={(location) => this.searchForWeather(location)}
+                            onDeleteClick={(location) => this.deleteLocation(location)}
+                        />
+                    ) : null
+                }
                 <PrefDropDown
                     unitsLoaded = {this.state.currentUnits} 
                     unitsChosen={(units, choice) => this.setUnits(units, choice)}
